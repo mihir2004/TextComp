@@ -10,43 +10,40 @@ This project implements a text compression algorithm using Huffman coding. Huffm
 
 ## Tech Stack
 
-- *Programming Language*: C++
-- *Compiler*: g++
-- *Version Control*: Git
+- _Programming Language_: C++
+- _Compiler_: g++
+- _Version Control_: Git
 
 ## Installation
 
 1. Clone the repository:
-    bash
-    git clone https://github.com/sahithi206/Text_compressor.git
-    cd Text_compressor
+   bash
+   git clone https://github.com/mihir2004/TextComp.git
+   cd Text_compressor
 
 2. Ensure you have a C++ compiler installed. For example, you can install g++ if it's not already installed:
-    bash
-    sudo apt-get install g++
-    
+   bash
+   sudo apt-get install g++
 
 3. Compile the project:
-    bash
-    g++ project.cpp -o text_compressor
-    
+   bash
+   g++ project.cpp -o text_compressor
+
 ## File Descriptions
 
 1. project.cpp: The main C++ source file containing the implementation of the compressor and decompressor.
-2. input.txt: Sample input text file. 
-3. output.txt: Sample output file after compression or decompression. 
+2. input.txt: Sample input text file.
+3. output.txt: Sample output file after compression or decompression.
 
 ## Usage
 
-1. *Compress a file*:
-    bash
-    ./text_compressor input.txt output.txt
-    
+1. _Compress a file_:
+   bash
+   ./text_compressor input.txt output.txt
 
-2. *Decompress a file*:
-    bash
-    ./text_compressor -d output.txt decompressed.txt
-    
+2. _Decompress a file_:
+   bash
+   ./text_compressor -d output.txt decompressed.txt
 
 ## Contribution
 
