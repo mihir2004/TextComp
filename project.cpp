@@ -137,6 +137,14 @@ string decode(string& encoded, Node* root) {
     return decoded;
 }
 
+// Function to free dynamically allocated memory for the Huffman tree
+void freeMemory(Node* root) {
+    if (root) {
+        freeMemory(root->left);
+        freeMemory(root->right);
+        delete root;
+    }
+}
 
 
 int main() {
